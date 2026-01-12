@@ -92,7 +92,7 @@ It corresponds to the `--requirement` argument for pip.
 Any valid value for that argument will be valid for this option.
 
 No special formatting is done with this input, so it won't be treated special.
-The value recieved from this input will be passed directly to pip.
+The value received from this input will be passed directly to pip.
 
 **Examples:**
 ```yaml
@@ -101,7 +101,7 @@ requirements: requirements.txt      # python -m pip install --requirement requir
 requirements: src/requirements.txt  # python -m pip install --requirement src/requirements.txt
 ```
 
-#### `constriants`
+#### `constraints`
 A [constraints file](https://pip.pypa.io/en/stable/user_guide/#constraints-files) to install from.
 This can be used to specify the versions of packages that are allowed to be installed.
 It does **not** do anything to actually install new packages.
@@ -111,7 +111,7 @@ It corresponds to the `--constraint` argument for pip.
 Any valid value for that argument will be valid for this option.
 
 No special formatting is done with this input, so it won't be treated special.
-The value recieved from this input will be passed directly to pip.
+The value received from this input will be passed directly to pip.
 
 **Examples:**
 ```yaml
@@ -136,7 +136,7 @@ no-deps: false  # python -m pip install package1
 
 #### `pre`
 Specify to install development or pre-release versions of packages.
-This will allow the latest version of the package to be isntalled rather than the stable version.
+This will allow the latest version of the package to be installed rather than the stable version.
 
 It corresponds to the `--pre` argument for pip.
 
@@ -157,7 +157,7 @@ It corresponds to the `--editable` argument for pip.
 Any valid value for that argument will be valid for this option.
 
 No special formatting is done with this input, so it won't be treated special.
-The value recieved from this input will be passed directly to pip.
+The value received from this input will be passed directly to pip.
 
 **Examples:**
 ```yaml
@@ -175,7 +175,7 @@ It corresponds to the [`--platform` argument for pip](https://pip.pypa.io/en/sta
 Any valid value for that argument will be valid for this option.
 
 No special formatting is done with this input, so it won't be treated special.
-The value recieved from this input will be passed directly to pip.
+The value received from this input will be passed directly to pip.
 
 **Examples:**
 ```yaml
