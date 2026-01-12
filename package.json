@@ -20,7 +20,7 @@
     "author": "step-security",
     "license": "MIT",
     "dependencies": {
-        "@actions/core": "^1.0.0",
+        "@actions/core": "^2.0.2",
         "@actions/exec": "^1.0.0",
         "axios": "^1.13.2",
         "hasbin": "^1.2.3",
