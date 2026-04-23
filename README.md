@@ -1,3 +1,5 @@
+[![StepSecurity Maintained Action](https://raw.githubusercontent.com/step-security/maintained-actions-assets/main/assets/maintained-action-banner.png)](https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions)
+
 # pip-action
 [![Test](https://github.com/step-security/pip-action/workflows/Test/badge.svg)](https://github.com/step-security/pip-action/actions)
 
