@@ -24,7 +24,7 @@
         "@actions/exec": "^1.0.0",
         "axios": "^1.13.2",
         "hasbin": "^1.2.3",
-        "semver": "^6.1.1"
+        "semver": "^7.7.3"
     },
     "devDependencies": {
         "@types/jest": "^29.0.0",
